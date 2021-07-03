@@ -146,7 +146,7 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 		}
 	}
 
-	@media only screen and (max-width:430px) {
+	@media only screen and (max-width:450px) {
 		h3 {
 			font-size: 0.8em;
 		}
