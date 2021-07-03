@@ -135,7 +135,24 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 		margin-top: 5%;
 	}
 
-	@media only screen and (min-width:768px) {
+	@media only screen and (max-width:360px) {
+		.section__headet__title {
+			font-size: 1.5em;
+			margin-bottom: 5%;
+		}
+
+		h3 {
+			font-size: 0.8em;
+		}
+	}
+
+	@media only screen and (max-width:430px) {
+		h3 {
+			font-size: 0.8em;
+		}
+	}
+
+	@media only screen and (min-width:678px) {
 		.section__headet__title {
 			font-size: 250%;
 		}
