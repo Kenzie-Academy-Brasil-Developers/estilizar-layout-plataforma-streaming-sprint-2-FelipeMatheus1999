@@ -152,7 +152,7 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 		}
 	}
 
-	@media only screen and (min-width:768px) {
+	@media (min-width:481px) and (max-width:768px) {
 		.section__headet__title {
 			font-size: 250%;
 		}
@@ -162,7 +162,7 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 		}
 	}
 
-	@media only screen and (min-width:1024px) {
+	@media (min-width:769px){
 		header.topo {
 			display: flex;
 			justify-content: flex-start;
