@@ -75,7 +75,7 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 		max-width: 858px;
 	}
 
-	li{	
+	li {	
 		width: 35%;
 		height: 100%;
 		display: flex;
@@ -91,16 +91,20 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 	}
 
 	img {
-		width: 100%;
+		width: 90%;
 		height: 100%;
 		max-width: 186px;
 		max-height: 186px
 	}	
 
-	.perfil--plus {
-		width: 60%;
+	.addPerfil figure {
+		width: 100%;
 		height: 100%;
+	}
 
+	.perfil--plus {
+		width: 50%;
+		margin: 21%;
 	}
 
 	.perfil {
@@ -110,7 +114,6 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 	.perfil--hover:hover:not(.perfil--plus) {
 		box-shadow: 0.5px 0.5px 15px 0.5px rgba(172, 166, 166, 0.801)
 	}
-
 	
 	h3 {
 		margin-top: 20px;
